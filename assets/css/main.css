@@ -3255,6 +3255,9 @@
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
 		background: #424242;
+		border-bottom-style: solid;
+		border-bottom-width: 2px;
+		border-bottom-color: #F8AD00;
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -3363,6 +3366,7 @@
 
 		#header.alt {
 			background: transparent;
+			border-bottom-width: 0px;
 		}
 
 			#header.alt h1 {
