@@ -3812,3 +3812,18 @@
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+	
+	@font-face {
+		font-family: DolceVitaLight;
+		src: url('../fonts/DolceVitaHeavyBold.ttf');
+	}
+	@font-face {
+		font-family: DolceVitaBold;
+		src: url('../fonts/DolceVitaLight.ttf'); 
+	}
+	.menuFontHeavy{
+		font-family: DolceVitaBold;
+	}
+	.menuFontLight{
+		font-family: DolceVitaLight;
+	}
