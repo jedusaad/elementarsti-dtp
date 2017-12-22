@@ -3827,3 +3827,11 @@
 	.menuFontLight{
 		font-family: DolceVitaLight;
 	}
+
+	.flipHorizontaly{
+		direction: rtl;
+		unicode-bidi: bidi-override; 
+	}
+	.elemenYellow{
+		color: #F8AD00;
+	}
