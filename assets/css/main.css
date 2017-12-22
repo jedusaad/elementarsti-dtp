@@ -3791,7 +3791,7 @@
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
-		padding-top: 0;
+		padding-top: 0; 
 	}
 
 	body.landing #footer {
