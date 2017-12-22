@@ -3814,11 +3814,11 @@
 	}
 	
 	@font-face {
-		font-family: DolceVitaLight;
+		font-family: DolceVitaBold;
 		src: url('../fonts/DolceVitaHeavyBold.ttf');
 	}
 	@font-face {
-		font-family: DolceVitaBold;
+		font-family: DolceVitaLight;
 		src: url('../fonts/DolceVitaLight.ttf'); 
 	}
 	.menuFontHeavy{
