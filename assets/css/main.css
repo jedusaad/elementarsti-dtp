@@ -1932,6 +1932,9 @@
 		.icon.style3 {
 			color: #76ddff;
 		}
+		.icon.stylepersonalizado {
+			color: #F8AD00;
+		}
 
 /* Image */
 
@@ -2641,7 +2644,7 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
+			background-color: #424242;
 			color: #c7ebe8;
 		}
 
