@@ -3836,3 +3836,10 @@
 	.elemenYellow{
 		color: #F8AD00;
 	}
+
+	.bg-color-1{
+		background-color: #EEEEEE !important;
+	}
+	.bg-color-2{
+		background-color: #E0E0E0 !important;
+	}
