@@ -31,7 +31,7 @@
 										<ul>
 											<li><a href="./index.html">Página inicial</a></li>
 											<li><a href="./portfolio.html">Produtos e Serviços</a></li>
-											<li><a href="./contactus.html">Contate-nos</a></li>
+											<li><a href="./contactus.php">Contate-nos</a></li>
 										</ul>
 									</div>
 								</li>
@@ -47,17 +47,17 @@
 						</header>
 						<section class="wrapper style5" style="text-align: center;"> 
 								<div style="width: 70%; text-align: justify; display: inline-block;">
-								<form method="post" action="#">
+								<form method="post" action="./function/mailSender.php">
 									<div class="row uniform">
 										<div class="6u 12u$(xsmall)">
-											<input type="text" name="demo-name" id="demo-name" value="" placeholder="Nome" required />
+											<input type="text" name="name" id="demo-name" value="" placeholder="Nome" required />
 										</div>
 										<div class="6u$ 12u$(xsmall)">
-											<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" required />
+											<input type="email" name="email" id="demo-email" value="" placeholder="Email" required />
 										</div>
 										<div class="12u$">
 											<div class="select-wrapper">
-												<select name="demo-category" id="demo-category">
+												<select name="category" id="demo-category">
 													<option value="0">- Tipo -</option>
 													<option value="1">Dúvida</option>
 													<option value="2">Sugestão</option>
@@ -67,15 +67,15 @@
 											</div>
 										</div>
 										<div class="6u 12u$(small)">
-											<input type="checkbox" id="demo-copy" name="demo-copy" checked>
+											<input type="checkbox" id="demo-copy" name="copy" checked>
 											<label for="demo-copy">Me envie uma cópia via email</label>
 										</div>
 										<div class="6u$ 12u$(small)">
-											<input type="checkbox" id="demo-human" name="demo-human" required >
+											<input type="checkbox" id="demo-human" name="human" required >
 											<label for="demo-human">Não sou um robô</label>
 										</div>
 										<div class="12u$">
-											<textarea name="demo-message" id="demo-message" placeholder="Digite sua mensagem" rows="6"></textarea>
+											<textarea name="demo-message" id="message" placeholder="Digite sua mensagem" rows="6"></textarea>
 										</div>
 										<div class="12u$">
 											<ul class="actions">
