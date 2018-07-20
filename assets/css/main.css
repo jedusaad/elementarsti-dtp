@@ -2311,7 +2311,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #ed4933;
+			background-color: #F8AD00;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2321,7 +2321,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #ef5e4a !important;
+				background-color: #F8AD00 !important;
 			}
 
 			input[type="submit"].special:active,
@@ -2329,7 +2329,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #eb341c !important;
+				background-color: #F8AD00 !important;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -3792,7 +3792,7 @@
 	}
 
 	body.landing #footer {
-		background-color: rgba(29, 36, 42, 0.9);
+		background-color: rgb(66,66,66, 0.9);
 	}
 
 	body.is-mobile.landing #page-wrapper {
@@ -3808,7 +3808,7 @@
 	}
 
 	body.is-mobile.landing #footer {
-		background-color: #1d242a;
+		background-color: #424242;
 	}
 	
 	@font-face {
