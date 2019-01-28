@@ -5,14 +5,13 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Generic - Spectral by HTML5 UP</title>
+<head>
+		<title>Elementar STI | Colaboradores</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+		<link rel="icon" href="images/icon.png" type="image/x-icon">
 	</head>
 	<body>
 
@@ -21,18 +20,16 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1><a href="index.php">Spectral</a></h1>
+						<h1><a href="/"><span class="menuFontHeavy elemenYellow">E</span><span class="menuFontLight">lementar</span></a></h1>
 						<nav id="nav">
 							<ul>
 								<li class="special">
 									<a href="#menu" class="menuToggle"><span>Menu</span></a>
 									<div id="menu">
 										<ul>
-											<li><a href="index.php">Home</a></li>
-											<li><a href="generic.html">Generic</a></li>
-											<li><a href="elements.html">Elements</a></li>
-											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
+											<li><a href="./index.php">Página inicial</a></li>
+											<li><a href="./portfolio.html">Produtos e Serviços</a></li>
+											<li><a href="./contactus.php">Contate-nos</a></li>
 										</ul>
 									</div>
 								</li>
@@ -43,8 +40,8 @@
 				<!-- Main -->
 					<article id="main">
 						<header>
-							<h2>Generic Page</h2>
-							<p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+							<h2>Colaboradores</h2>
+							<!-- <p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p> -->
 						</header>
 						<section class="wrapper style5">
 							<div class="inner">

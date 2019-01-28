@@ -1,3 +1,8 @@
+<?php
+	if (isset($_GET["person"])) {
+		header('Location: '.$uri.'/colaborators.php');
+	}
+?>
 <!DOCTYPE HTML>
 <!--
 	Spectral by HTML5 UP
@@ -9,10 +14,9 @@
 		<title>Elementar STI | Home</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+		<link rel="icon" href="images/icon.png" type="image/x-icon">
 	</head>
 	<body class="landing">
 
@@ -28,7 +32,7 @@
 									<a href="#menu" class="menuToggle"><span>Menu</span></a>
 									<div id="menu">
 										<ul>
-											<li><a href="./index.html">Página inicial</a></li>
+											<li><a href="./index.php">Página inicial</a></li>
 											<li><a href="./portfolio.html">Produtos e Serviços</a></li>
 											<li><a href="./contactus.php">Contate-nos</a></li>
 										</ul>
@@ -103,9 +107,9 @@
 					<footer id="footer">
 						<ul class="icons">
 
-							<li><a href="https://www.facebook.com/elementarsti/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="http://elementarsti.com.br?pages=api" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="mailto:contato@elementarsti.com.br?subject=Contato" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+							<li><a href="https://www.facebook.com/elementarsti/" class="icon fa-facebook" target="blank"><span class="label">Facebook</span></a></li>
+							<li><a href="http://elementarsti.com.br?pages=api" class="icon fa-dribbble" target="blank"><span class="label">Dribbble</span></a></li>
+							<li><a href="mailto:contato@elementarsti.com.br?subject=Contato" class="icon fa-envelope-o" target="blank"><span class="label">Email</span></a></li>
 						</ul>
 						<ul class="copyright">
 							<li>&copy; Elementar STI - Todos direitos reservados</li><li>Template: <a href="http://html5up.net">HTML5 UP</a></li>
