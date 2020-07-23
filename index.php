@@ -70,6 +70,12 @@
 
 				<!-- Two -->
 					<section id="two" class="wrapper alt style2">
+						<section class="spotlight bg-color-2">
+							<div class="image"><img src="images/maintain.png" alt="" /></div><div class="content">
+								<h2 class="title-color-dark">Montagem e manuntenção de Micros e Redes</h2>
+								<p>Montamos e damos manutenção no seu computador. Troca de peças, limpeza e formatação </p>
+							</div>
+						</section>
 						<section class="spotlight bg-color-1">
 							<div class="image"><img src="images/socialmedia.png" alt="" /></div><div class="content">
 								<h2 class="title-color-dark">Mídias Sociais e Desing</h2>
